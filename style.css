@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.name {
+    font-size: 8vh;
+    padding: 30px;
+}
+
+#clock {
+    width: 50vh;
+    height: 50vh;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    background-color: #fff;
+}
+
+#hour, #minute, #second {
+    background-color: #000;
+    position: absolute;
+    transform-origin: bottom center;
+}
+
+#hour {
+    width: 6px;
+    height: 12vh;
+    left: 50%;
+    top: 13vh;
+    border-radius: 6px 6px 0 0;
+}
+
+#minute {
+    width: 4px;
+    height: 15vh;
+    left: 50%;
+    top: 10vh;
+    border-radius: 4px 4px 0 0;
+}
+
+#second {
+    width: 2px;
+    height: 20vh;
+    left: 50%;
+    top: 5vh;
+    background-color: red;
+}
